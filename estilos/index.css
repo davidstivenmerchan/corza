@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+}
+:root{
+    --color1: rgb(247,248,243);
+    --color2: rgb(164,204,203);
+    --tipografia:'Patrick Hand', cursive;
+    --tipografia2:'Hi Melody',cursive;
+}
+body{
+    font-family: var(--tipografia)
+}
+html{
+    scroll-behavior: smooth;
+}
+.nav1{
+    background: var(--color1);
+    display: flex;
+}
+nav ul{
+    display: flex;
+}
+.nav1 ul li{
+    list-style: none;
+    margin: 10px 30px;
+    
+}
+.paginas{
+    display: flex;
+    margin-left:250px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.paginas i{
+    margin-left: 30px;
+}
+.paginas i:hover{
+    cursor: pointer;
+    color: var(--color2);
+}
+.logo{
+    width: 400px;
+    height: 150px;
+    margin-left: 450px;
+    
+}
+.logo img{
+    width: 400px;
+    height: 150px;
+}
+.carro_logo{
+    display: flex;
+}
+.carrito{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 250px;
+    transition: 1s;
+    background: var(--color2);
+    height: 30px;
+    padding: 10px;
+    border-radius: 40px;
+    border: 1px solid var(--color1);
+}
+.carrito:hover{
+    border: 1px var(--color2) solid;
+    background: var(--color1) ;
+    cursor: pointer;
+}
+
+.carrito p{
+    margin-left: 5px;
+}
+.nav2{
+    margin-top: 10px;
+    font-family: var(--tipografia2);
+    font-size: 20px;
+    background: var(--color2);
+    width: 100%;
+    height: 30px;
+    justify-content: center;
+    
+}
+.nav2 ul{
+    margin-left: 270px;
+}
+.nav2 ul li{
+    list-style: none;
+    margin-left: 50px;
+    transition: 1s;
+    border-radius: 5px;
+    padding: 5px;
+}
+.nav2 ul li:hover{
+    background: var(--color1);
+    cursor: pointer;
+}
